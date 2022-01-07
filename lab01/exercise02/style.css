@@ -11,6 +11,30 @@ Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
+/* styling the sections after Exercise 1*/
+section {
+    width: 200px;
+    margin: 10px;
+    border: solid 4px rgb(3, 0, 0);
+    padding-bottom: 10px;
+}
+section h2, section p, section button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section img {
+    width: 100%;
+}
+/* wrapping the cards*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* changing the font of the header to Arial*/
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
